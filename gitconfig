@@ -1,0 +1,7 @@
+[user]
+	name = amygdalama
+	email = amyehanlon@gmail.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = auto
