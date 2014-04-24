@@ -23,3 +23,6 @@ export CLICOLOR=0
 # Added to make sed work on cpython directory
 export LC_CTYPE=C
 export LANG=C
+
+# Added to make iron-forger work
+source ~/projects/dotfiles/.iron-forger-credentials
