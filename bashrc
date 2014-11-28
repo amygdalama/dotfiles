@@ -24,5 +24,3 @@ export CLICOLOR=0
 export LC_CTYPE=C
 export LANG=C
 
-# Added to make iron-forger work
-source ~/projects/dotfiles/.iron-forger-credentials
