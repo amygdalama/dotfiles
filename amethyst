@@ -1,0 +1,7 @@
+{
+    "floating": [
+        "com.spotify.client",
+        "com.apple.systempreferences"
+],
+}
+
