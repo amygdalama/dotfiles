@@ -24,3 +24,7 @@ export CLICOLOR=0
 export LC_CTYPE=C
 export LANG=C
 
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
