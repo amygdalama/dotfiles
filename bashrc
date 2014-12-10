@@ -10,7 +10,7 @@ GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
  
-PS1='[33m\W$(__git_ps1 " [%s]") $ [0m'
+PS1='[35m\W$(__git_ps1 " [%s]")[0m $ '
 # the PS1 above looks like this:
 # hackerschool [announcements $%] $ 
 
