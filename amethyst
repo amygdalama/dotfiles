@@ -1,7 +1,9 @@
 {
     "floating": [
         "com.spotify.client",
-        "com.apple.systempreferences"
+        "com.apple.systempreferences",
+        "com.tinyspeck.slackmacgap",
+        "com.apple.finder",
 ],
 }
 
