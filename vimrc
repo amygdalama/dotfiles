@@ -16,4 +16,3 @@ set scrolloff=5
 syntax on
 set laststatus=2
 set statusline+=%F
-
