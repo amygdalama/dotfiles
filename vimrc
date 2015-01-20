@@ -17,3 +17,8 @@ set scrolloff=5
 syntax on
 set laststatus=2
 set statusline+=%F
+let g:flake8_show_in_file=1
+let g:flake8_show_in_gutter=1
+autocmd BufWritePost *.py call Flake8()
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%>80v.\+/
