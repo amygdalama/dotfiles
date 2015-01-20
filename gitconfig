@@ -1,5 +1,5 @@
 [user]
-	name = amygdalama
+	name = Amy Hanlon
 	email = amyehanlon@gmail.com
 [credential]
 	helper = osxkeychain
@@ -7,3 +7,8 @@
 	ui = auto
 [push]
 	default = simple
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = /usr/local/bin/vim
+[init]
+	templatedir = ~/.git_template
