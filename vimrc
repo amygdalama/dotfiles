@@ -6,6 +6,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'fisadev/vim-isort'
 call vundle#end()
 filetype plugin indent on
 inoremap jj <ESC>
