@@ -39,11 +39,6 @@ highlight link SyntasticWarning WarningMsg
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlPMixed'
 
-let g:syntastic_python_checkers=['flake8', 'python']
-
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlPMixed'
-
 if executable('ag')
     set grepprg=ag\ --nogroup\ --nocolor
 
