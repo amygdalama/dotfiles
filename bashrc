@@ -2,7 +2,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
   fi
 
-PATH=/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+export PATH="/usr/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWSTASHSTATE=true
@@ -13,6 +13,7 @@ PS1='[35m\W$(__git_ps1 " [%s]")[0m $ '
 # hackerschool [announcements $%] $ 
 
 # Virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2      # homebrew installs python 2.x as python2 now
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
@@ -28,3 +29,6 @@ export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 export VISUAL=vim
 export EDITOR=$VISUAL
+
+# add local scripts like gg_replace
+export PATH=~/bin:$PATH
